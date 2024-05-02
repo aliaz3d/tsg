@@ -18,8 +18,8 @@ end
 local entity = loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/Libraries/entityHandler.lua", true), "entity")()
 entity.fullEntityRefresh()
 
---local utilities = isfile and loadfile and isfile("tsg/utilities.lua") and loadfile("tsg/utilities.lua", "utilities")() or loadstring(game:HttpGet("https://github.com/aliaz3d/tsg/blob/main/utilities.lua?raw=true"), "utilities")()
---utilities.init()
+local utilities = isfile and loadfile and isfile("tsg/utilities.lua") and loadfile("tsg/utilities.lua", "utilities")() or loadstring(game:HttpGet("https://github.com/aliaz3d/tsg/blob/main/utilities.lua?raw=true"), "utilities")()
+utilities.init()
 
 local library = isfolder and isfile and loadfile and isfolder("engosUtilities") and isfile("engosUtilities/ui.lua") and loadfile("engosUtilities/ui.lua", "ui")() or loadstring(game:HttpGet("https://github.com/aliaz3d/tsg/blob/main/UILibrary.lua?raw=true", true), "ui")()
 library:Init("tsg.lua v1.08 | by engo")
